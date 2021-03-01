@@ -51,7 +51,7 @@ c.fill();
 
 //text on the file 
 c.font = "30px Arial";
-c.fillStyle = "#ccddff"
+c.fillStyle = "#ccddff";
 c.fillText("Snowy Night", 10, 50);
 
 //snow 
