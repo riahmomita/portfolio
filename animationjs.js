@@ -15,7 +15,7 @@ let count = 0;
 canvas.style.marginTop = window.innerHeight / 2 - height / 2 + "px";
 
 const spriteSheet = new Image();
-spriteSheet.src = "https://www.edureka.co/blog/wp-content/uploads/2019/08/CSS-Sprites.png";
+spriteSheet.src = "/Users/syedhassan/Desktop/GitHub/portfolio/animationsprite.png";
 
 function animate() {
 	context.drawImage(
