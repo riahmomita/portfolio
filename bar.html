@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>  
+<script>
+window.onload = function () {
+	
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	
+	title:{
+		text:"Top Causes of Deaths in NYC"
+	},
+	axisX:{
+		interval: 1
+	},
+	axisY2:{
+		interlacedColor: "AliceBlue",
+		gridColor: "rgba(1,77,101,.1)",
+		title: "Number of Deaths"
+	},
+	data: [{
+		type: "bar",
+		name: "Health Conditions",
+		axisYType: "secondary",
+		color: "LightBlue",
+		dataPoints: [
+			{ y: 132, label: "Cancer" },
+			{ y: 132, label: "Heart Disease" },
+			{ y: 109, label: "Hypertension" },
+			{ y: 80, label: "Accidental Drug Poisoning"},
+			{ y: 63, label: "Mental and Behavioral Disorder"},
+			{ y: 55, label: "Alzheimers"},
+			{ y: 41, label: "Suicide"},
+			{ y: 32, label: "Chronic Liver"},
+			{ y: 22, label: "Assault"},
+			{ y: 2, label: "Parkinsons"}
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+<br>
+Momita Riah
+<br><br>
+<a href="index.html"> Home Page </a>
+</html>
