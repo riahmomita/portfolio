@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+    nav#nav1 {margin-top: 24px;}
+    nav#nav1 > a{
+        background: #afdaa4;
+        color: rgb(8, 8, 8);
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    nav#nav1 > a:hover {background: #bea5cf;}
+    nav#nav1 > a:hover {background: #73a06f;}
+
+</style>
+<script>
+    var bird = new Audio();
+    bird.src = "bird.mp3";
+    var guitar = new Audio();
+    guitar.src = "guitar.mp3";
+    var bells = new Audio();
+    bells.src = "bells.mp3";
+    var alarm = new Audio();
+    alarm.src = "alarm.mp3";
+    var fireworks = new Audio();
+    fireworks.src = "fireworks.mp3";
+</script>
+
+
+</head>
+<body>
+    <img src="boombox.jpg" usemap="#image-map">
+    <map name="image-map">   
+         <nav id=nav1>    
+            <a target="" alt="bird" title="bird" href="#" onmousedown="bird.play()" coords="55,418,142,455" shape="rect">Bird</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="" alt="guitar" title="guitar" href="#" onmousedown="guitar.play()" coords="223,416,308,453" shape="rect">Guitar</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="" alt="bells" title="bells" href="#" onmousedown="bells.play()" coords="399,416,486,453" shape="rect">Bells</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="" alt="fireworks" title="fireworks" href="#" onmousedown="fireworks.play()" coords="551,416,640,452" shape="rect">Fireworks</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="" alt="alarm" title="alarm" href="#" onmousedown="alarm.play()" coords="716,416,801,452" shape="rect">Alarm</a>
+        
+         </nav>
+    </map>
+</body>
+
+<br><br>
+<a href="index.html"> Home Page </a>
+</html>
